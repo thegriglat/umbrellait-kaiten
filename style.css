@@ -1,0 +1,74 @@
+.contextMenuContainer {
+    border-radius: 8px;
+}
+
+.MuiIconButton-colorPrimary,
+.Mui-selected svg {
+    color: #0050ff !important;
+}
+
+.MuiBadge-colorPrimary {
+
+    background-color: #0050ff;
+}
+
+.MuiToolbar-root {
+    background-color: #282a32;
+    color: white;
+}
+
+.MuiButton-label,
+.MuiToggleButton-label:nth-child(1) {
+    color: white;
+}
+
+.MuiButton-outlined {
+    border-color: white;
+}
+
+.MuiButton-outlined:hover {
+    border-color: #0050ff;
+}
+
+.MuiIconButton-label {
+    color: #777778;
+}
+
+a {
+    color: #0050ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0050ff;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Graphik LC;
+    src: url(https://umbrellait.ru/wp-content/themes/core/dist/fonts/GraphikLC-Light.woff2);
+}
+
+body {
+    font-family: Graphik LC, montserrat, sans-serif;
+    border-radius: 4px;
+}
+
+.MuiFab-sizeMedium {
+    width: auto;
+    height: 34px;
+    padding: 0 8px;
+    min-width: 34px;
+    border-radius: 17px;
+}
+
+
+.MuiSvgIcon-fontSizeSmall {
+    font-size: 1rem;
+    color: #777778;
+}
+
+.MuiTypography-button {
+    text-overflow: none;
+    max-width: unset;
+}
