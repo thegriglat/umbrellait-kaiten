@@ -1,5 +1,5 @@
 .contextMenuContainer {
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .MuiIconButton-colorPrimary,
@@ -19,8 +19,9 @@
 
 .MuiButton-label,
 .MuiToggleButton-label:nth-child(1) {
-    color: white;
+    color: #bebebe;
 }
+
 
 .MuiButton-outlined {
     border-color: white;
@@ -31,18 +32,24 @@
 }
 
 .MuiIconButton-label {
-    color: #777778;
+    color: #bebebe;
 }
 
-a {
+a,
+.ProseMirror a {
     color: #0050ff;
-    text-decoration: none;
+    text-decoration: unset !important;
 }
+
 
 a:hover {
     color: #0050ff;
-    text-decoration: underline;
 }
+
+a:visited {
+    color: #50f !important;
+}
+
 
 @font-face {
     font-family: Graphik LC;
@@ -51,7 +58,6 @@ a:hover {
 
 body {
     font-family: Graphik LC, montserrat, sans-serif;
-    border-radius: 4px;
 }
 
 .MuiFab-sizeMedium {
@@ -71,4 +77,42 @@ body {
 .MuiTypography-button {
     text-overflow: none;
     max-width: unset;
+}
+
+.MuiTypography-colorPrimary {
+    color: #282a32;
+}
+
+.MuiTypography-gutterBottom {
+    font-style: italic;
+    text-align: center;
+}
+
+.MuiOutlinedInput-adornedStart {
+    padding-left: 14px;
+}
+
+.MuiOutlinedInput-root {
+    position: relative;
+    border-radius: 4px;
+}
+
+.MuiInputBase-fullWidth {
+    width: 100%;
+}
+
+
+.MuiPaper-rounded {
+    border-radius: 8px;
+}
+
+.contextMenuContainer {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    margin-bottom: 2px;
+}
+
+#boardsContainer {
+    :nth-child(n) {
+        border-radius: 6px;
+    }
 }
