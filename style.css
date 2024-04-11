@@ -50,16 +50,6 @@ a:visited {
     color: #50f !important;
 }
 
-
-@font-face {
-    font-family: Graphik LC;
-    src: url(https://umbrellait.ru/wp-content/themes/core/dist/fonts/GraphikLC-Light.woff2);
-}
-
-body {
-    font-family: Graphik LC, montserrat, sans-serif;
-}
-
 .MuiFab-sizeMedium {
     width: auto;
     height: 34px;
