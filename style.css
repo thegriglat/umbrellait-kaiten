@@ -37,17 +37,7 @@
 
 a,
 .ProseMirror a {
-    color: #0050ff;
     text-decoration: unset !important;
-}
-
-
-a:hover {
-    color: #0050ff;
-}
-
-a:visited {
-    color: #50f !important;
 }
 
 .MuiFab-sizeMedium {
